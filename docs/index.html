@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Madnotes</title>
-    <base href="/">
+    <base href="/tetanotes">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.2/codemirror.css">
     <link rel="stylesheet" href="highlight.css">
@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
     <script>
         window.Module = {};
-        window.server_api_url = " ";//relative to this page
+        window.server_api_url = "http://138.68.253.245/tetanotes";// digital ocean instance, proxies by nginx
         window.wasm_load_callback = function(){
             var example_btn = document.getElementById('load_example');
             if(example_btn){
