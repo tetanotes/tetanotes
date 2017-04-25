@@ -70,6 +70,8 @@ table thead td {
 .chapter li a {
   padding: 5px 0;
   text-decoration: none;
+  cursor: pointer;
+  cursor: hand;
 }
 .chapter li a:hover {
   text-decoration: none;
